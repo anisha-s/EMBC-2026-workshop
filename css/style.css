@@ -1,6 +1,5 @@
 /* =========================================================
-   EMBC 2026 – POCUS Workshop
-   Modern academic + industry styling
+   EMBC 2026 – POCUS-AI Workshop
    ========================================================= */
 
 /* ---------- CSS VARIABLES ---------- */
@@ -153,7 +152,7 @@
   
   /* ---------- HERO ---------- */
   .hero {
-    background: linear-gradient(100deg, var(--primary), #046497);
+    background: linear-gradient(135deg, var(--primary), #001b3f);
     color: white;
     text-align: center;
     padding: 4rem 1.5rem;
@@ -240,6 +239,11 @@
   th {
     background: var(--bg-alt);
   }
+
+   td:first-child,
+   th:first-child {
+     width: 180px;
+   }
   
   /* ---------- LINKS & BUTTONS ---------- */
   a {
@@ -358,7 +362,7 @@
     bottom: 1.25rem;
     right: 1.25rem;
     background: var(--accent);
-    color: #efeaf0;
+    color: #002a5c;
     padding: 0.5rem 0.75rem;
     border-radius: 999px;
     font-weight: 600;
@@ -382,11 +386,11 @@
   
   /* ---------- Dark mode link colors ---------- */
 [data-theme="dark"] a {
-    color: #fc7dcb; /* accessible light cyan */
+    color: #7dd3fc; /* accessible light cyan */
   }
   
   [data-theme="dark"] a:hover {
-    color: #38f8cf;
+    color: #38bdf8;
   }
   
   [data-theme="dark"] .navbar a {
